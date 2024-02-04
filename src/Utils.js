@@ -12,7 +12,4 @@ function capitalizeFirstLetter(str) {
   // TODO: Implement this function
 }
 
-export default {
-  reverseString,
-  capitalizeFirstLetter,
-};
+module.exports = { reverseString, capitalizeFirstLetter };
