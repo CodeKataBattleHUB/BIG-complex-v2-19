@@ -1,6 +1,6 @@
 // tests/utils.test.js
 
-import { reverseString, capitalizeFirstLetter } from "../src/Utils.js";
+const { reverseString, capitalizeFirstLetter } = require("../src/Utils.js");
 
 // Test reverseString function
 test("reverseString reverses a string", () => {
